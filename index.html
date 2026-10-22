@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>Aditya Kumar | Full-stack developer (MERN)</title>
+    <meta name="description" content="Aditya Kumar is a B.Tech CSE student and full-stack developer building with React, Node.js, MongoDB and FastAPI. See SatQuery AI and LifeLink, and get in touch about MERN internships." />
+    <meta name="theme-color" content="#07080f" />
+    <link rel="canonical" href="%SITE_URL%/" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Aditya Kumar" />
+    <meta property="og:title" content="Aditya Kumar | Full-stack developer (MERN)" />
+    <meta property="og:description" content="SatQuery AI, LifeLink and the engineering behind them. Open to MERN internships." />
+    <meta property="og:url" content="%SITE_URL%/" />
+    <meta property="og:image" content="%SITE_URL%/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Aditya Kumar, full-stack developer" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Aditya Kumar | Full-stack developer (MERN)" />
+    <meta name="twitter:description" content="SatQuery AI, LifeLink and the engineering behind them. Open to MERN internships." />
+    <meta name="twitter:image" content="%SITE_URL%/og-image.png" />
+
+    <!-- Apply the saved theme before first paint so there is no light/dark flash. -->
+    <script>
+      try {
+        var t = localStorage.getItem('ak-theme');
+        if (t !== 'dark' && t !== 'light') t = 'dark'; // dark is the default; the visitor's explicit choice is remembered
+        document.documentElement.dataset.theme = t;
+        document.querySelector('meta[name=theme-color]').content = t === 'light' ? '#f6f7fd' : '#07080f';
+      } catch (e) {}
+    </script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Aditya Kumar",
+      "url": "%SITE_URL%/",
+      "email": "mailto:official.adityakumar4005@gmail.com",
+      "jobTitle": "Full-stack developer",
+      "alumniOf": { "@type": "CollegeOrUniversity", "name": "Silicon University" },
+      "sameAs": ["https://www.linkedin.com/in/aditya-kumar-a8915034a", "https://github.com/Aditya-Kumar-Official"],
+      "knowsAbout": ["React", "Node.js", "Express.js", "MongoDB", "FastAPI", "REST APIs", "Socket.io"]
+    }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript>This portfolio needs JavaScript. Contact: official.adityakumar4005@gmail.com</noscript>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
